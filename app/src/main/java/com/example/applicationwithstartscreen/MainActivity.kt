@@ -1,5 +1,6 @@
 package com.example.applicationwithstartscreen
 
+import CreatingPassword
 import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -69,6 +70,15 @@ class MainActivity : ComponentActivity() {
                     }
                     composable("autorization_screen") {
                         AutorizationAndRegistration(navController)
+                    }
+                    composable("code_in_email") {
+                        CodeInEmail(navController)
+                    }
+                    composable("creating_password") {
+                        CreatingPassword(navController)
+                    }
+                    composable("creating_card") {
+                        CreatingCard(navController)
                     }
                 }
             }

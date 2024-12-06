@@ -15,5 +15,7 @@
     <color name="color8">#653740F5</color>
     <color name="color9">#2254F5</color>
     <color name="new_color">#57A9FF</color>
+    <color name="new_color_buttom">#5057A9FF</color>
     <color name="text_color">#00B712</color>
+    <color name="gray_new">#d1cdd6</color>>
 </resources>
