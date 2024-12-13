@@ -80,6 +80,9 @@ class MainActivity : ComponentActivity() {
                     composable("creating_card") {
                         CreatingCard(navController)
                     }
+                    composable("analized"){
+                        Analyzes(navController)
+                    }
                 }
             }
         }
@@ -90,7 +93,7 @@ class MainActivity : ComponentActivity() {
         LaunchedEffect(Unit) {
             delay(3000)
             onTimeout()
-            navController.navigate("OnBoarding")
+            navController.navigate("analized")
         }
         val colorList1 = listOf(
             colorResource(R.color.color1),
