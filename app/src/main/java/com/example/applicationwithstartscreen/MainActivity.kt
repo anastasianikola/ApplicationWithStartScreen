@@ -93,7 +93,7 @@ class MainActivity : ComponentActivity() {
         LaunchedEffect(Unit) {
             delay(3000)
             onTimeout()
-            navController.navigate("analized")
+            navController.navigate("OnBoarding")
         }
         val colorList1 = listOf(
             colorResource(R.color.color1),

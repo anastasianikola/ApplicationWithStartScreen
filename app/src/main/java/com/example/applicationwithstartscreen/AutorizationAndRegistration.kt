@@ -126,8 +126,9 @@ fun AutorizationAndRegistration(navController: NavController) {
                 .height(70.dp),
             enabled = isButtonEnabled,
             colors = ButtonDefaults.buttonColors(
-                containerColor = if (isButtonEnabled) colorResource(R.color.new_color) else colorResource(R.color.new_color_buttom),
+                containerColor = colorResource(R.color.new_color) ,
                 contentColor = Color.White,
+                disabledContainerColor =  colorResource(R.color.new_color_buttom),
             )
         ) {
             Text(
